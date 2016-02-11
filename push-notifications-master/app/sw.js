@@ -37,10 +37,32 @@ self.addEventListener('push', function(event) {
   var title = 'You got an offer!!';
   event.waitUntil(
     self.registration.showNotification(title, {
-      body: 'Apple Iphone 6 now for $0.00. Grab now.',
+      body: 'Apple Iphone 6 now as low as $27.00/mo. Grab now!!',
       icon: 'images/icon.png',
       tag: 'my-tag'
     }));
-  // TODO
+  
+  self.addEventListener('notificationclick', function(event) {
+    console.log('Notification click: tag ', event.notification.tag);
+    event.notification.close();
+    var url = 'http://www.verizonwireless.com/smartphones/apple-iphone-6s/#?sku=1740040';
+    event.waitUntil(
+        clients.matchAll({
+            type: 'window'
+        })
+        .then(function(windowClients) {
+            for (var i = 0; i < windowClients.length; i++) {
+                var client = windowClients[i];
+                if (client.url === url && 'focus' in client) {
+                    return client.focus();
+                }
+            }
+            if (clients.openWindow) {
+                return clients.openWindow(url);
+            }
+        })
+    );
+});
+  
   
 });
