@@ -30,6 +30,7 @@ self.addEventListener('install', function(event) {
 
 self.addEventListener('activate', function(event) {
   console.log('Activated', event);
+  subscribeButton.textContent = 'Unsubscribe';
 });
 
 self.addEventListener('push', function(event) {

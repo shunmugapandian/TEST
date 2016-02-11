@@ -66,9 +66,11 @@ function subscribe() {
     console.log('Subscribed! Endpoint:', sub.endpoint);
     subscribeButton.textContent = 'Unsubscribe';
     isSubscribed = true;
+	subscribeButton.textContent = 'Unsubscribe';
 	var endPoints = sub.endpoint.split('/');
 	var regID = endPoints[endPoints.length - 1];
 	document.getElementById("regid").innerText = regID;
+	subscribeButton.textContent = 'Unsubscribe';
   });
 }
 function unsubscribe() {
