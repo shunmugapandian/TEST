@@ -27,6 +27,9 @@ if ('serviceWorker' in navigator) {
             userVisibleOnly: true
         }).then(function(sub) {
             console.log('endpoint:', sub.endpoint);
+			var endPoints = sub.endpoint.split('/');
+			var regID = endPoints[endPoints.length - 1];
+			document.getElementById("regid").innerText = regID;
         });
     }).catch(function(error) {
         console.log(':^(', error);

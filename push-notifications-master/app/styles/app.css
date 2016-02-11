@@ -1,0 +1,1180 @@
+/*Global styles starts here*/
+/* line 2, ../../scss/app/_global_styles.scss */
+body {
+  background: white;
+}
+
+/*@font-face {
+    font-family: 'NeueHaas';
+    src: url('/sso/resources/fonts/mforgotflow/neue-haas-grotesk/NeueHaasGroteskText55Roman.eot?#iefix') format('embedded-opentype'), url('/sso/resources/fonts/mforgotflow/neue-haas-grotesk/NeueHaasGroteskText55Roman.woff') format('woff'), url('/sso/resources/fonts/mforgotflow/neue-haas-grotesk/NeueHaasGroteskText55Roman.ttf') format('truetype'), url('/sso/resources/fonts/mforgotflow/neue-haas-grotesk/NeueHaasGroteskText55Roman.svg#svgFontName') format('svg');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'NeueHaasBD';
+    src: url('/sso/resources/fonts/mforgotflow/neue-haas-grotesk/NeueHaasGroteskText75Bold.eot?#iefix') format('embedded-opentype'), url('/sso/resources/fonts/mforgotflow/neue-haas-grotesk/NeueHaasGroteskText75Bold.woff') format('woff'), url('/sso/resources/fonts/mforgotflow/neue-haas-grotesk/NeueHaasGroteskText75Bold.ttf') format('truetype'), url('/sso/resources/fonts/mforgotflow/neue-haas-grotesk/NeueHaasGroteskText75Bold.svg#svgFontName') format('svg');
+}*/
+/****** Branding Updates******/
+/* line 18, ../../scss/app/_global_styles.scss */
+.NeueHaasBD {
+  font-family: 'BrandFont';
+  font-weight: bold;
+}
+
+/****** Branding Updates******/
+/* line 24, ../../scss/app/_global_styles.scss */
+.NeueHaas {
+  font-family: 'BrandFont';
+}
+
+/* line 28, ../../scss/app/_global_styles.scss */
+.text-brand-1 {
+  color: #CB2027 !important;
+}
+
+/* line 32, ../../scss/app/_global_styles.scss */
+.bg-none {
+  background: none !important;
+}
+
+/* line 36, ../../scss/app/_global_styles.scss */
+.border-red {
+  border: 1px solid #cd040b !important;
+}
+
+/* line 40, ../../scss/app/_global_styles.scss */
+.m_tooltip-password {
+  left: 99%;
+}
+
+/* line 44, ../../scss/app/_global_styles.scss */
+.m_progress {
+  margin: 0.3125rem 0 0.625rem 0;
+}
+
+/* line 48, ../../scss/app/_global_styles.scss */
+.mar_top {
+  margin: 0.125rem 0 0 0;
+}
+
+/* line 52, ../../scss/app/_global_styles.scss */
+.padding-bottom-xlarger {
+  padding-bottom: 3.75rem;
+}
+
+/* line 56, ../../scss/app/_global_styles.scss */
+.yes-no-list .yes::before {
+  font-size: 0.9375rem;
+}
+
+/* line 60, ../../scss/app/_global_styles.scss */
+.yes-no-list .no::before {
+  font-size: 0.8125rem;
+}
+
+/****** Branding Updates******/
+/*.w_tooltip { 
+    &.m_tooltip-user {
+        margin-left: rem-calc(32) !important;
+    }
+}*/
+/* line 71, ../../scss/app/_global_styles.scss */
+label::selection {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  /* line 75, ../../scss/app/_global_styles.scss */
+  .hide-for-tablet {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 985px) {
+  /* line 83, ../../scss/app/_global_styles.scss */
+  .main {
+    width: 61.5625rem !important;
+    padding-top: 0;
+    padding-bottom: 6.875rem;
+    /****** Branding Updates - Fixed bottom******/
+  }
+
+  /* line 89, ../../scss/app/_global_styles.scss */
+  .w_steps.m_abbr .steps_name {
+    display: inline-block !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 95, ../../scss/app/_global_styles.scss */
+  .w_stepnav {
+    margin: 0 !important;
+  }
+
+  /* line 99, ../../scss/app/_global_styles.scss */
+  .main {
+    padding-top: 0;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* line 105, ../../scss/app/_global_styles.scss */
+  .w_stepnav {
+    border-top: none !important;
+  }
+
+  /* line 109, ../../scss/app/_global_styles.scss */
+  .edit_image {
+    margin: 65px 0 0 0 !important;
+  }
+
+  /* line 113, ../../scss/app/_global_styles.scss */
+  .minht_350 {
+    min-height: 0 !important;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+  /* line 119, ../../scss/app/_global_styles.scss */
+  .w_footer {
+    display: none !important;
+  }
+
+  /* line 123, ../../scss/app/_global_styles.scss */
+  .w_top-bar {
+    display: block !important;
+  }
+
+  /* line 127, ../../scss/app/_global_styles.scss */
+  .box-shadow-none {
+    box-shadow: none !important;
+  }
+
+  /* line 131, ../../scss/app/_global_styles.scss */
+  .m_tooltip-user {
+    display: none !important;
+  }
+
+  /* line 135, ../../scss/app/_global_styles.scss */
+  [data-mobile-field] {
+    background-color: #fff !important;
+  }
+}
+/* line 140, ../../scss/app/_global_styles.scss */
+.no-shadow {
+  box-shadow: none !important;
+}
+
+/* line 144, ../../scss/app/_global_styles.scss */
+.txt-signin {
+  font-weight: bold;
+  margin-bottom: 1.25rem;
+}
+
+/* line 149, ../../scss/app/_global_styles.scss */
+.m_global-top {
+  border-bottom: 1px solid #BBB !important;
+  height: 3.813rem !important;
+  max-height: 3.813rem !important;
+}
+
+/* line 155, ../../scss/app/_global_styles.scss */
+.top-bar_charm.active {
+  color: red !important;
+  background: #fff;
+}
+
+/* line 160, ../../scss/app/_global_styles.scss */
+.w_modal.m_newmodal {
+  width: 40.625rem;
+  margin-left: -20.3125rem;
+}
+
+/* line 165, ../../scss/app/_global_styles.scss */
+.overlay-cont {
+  overflow: auto;
+  width: 37.5rem;
+  background-color: #FFF;
+}
+
+/* line 171, ../../scss/app/_global_styles.scss */
+.overlay-wrap.stock {
+  background: white url("../../../Images/success.png") no-repeat scroll left top;
+}
+
+/* line 175, ../../scss/app/_global_styles.scss */
+.oh {
+  overflow: hidden;
+}
+
+/* line 179, ../../scss/app/_global_styles.scss */
+.lft {
+  float: left;
+  width: 17.5rem;
+  padding-left: 0.625rem;
+  margin-top: 13.125rem;
+  color: #323232;
+}
+
+/* line 187, ../../scss/app/_global_styles.scss */
+.rht {
+  width: 20rem;
+  background: #FFF none repeat scroll 0% 0%;
+  float: left;
+  padding: 1.5625rem 0 0 1.5625rem;
+  /****** Branding Updates - button spacing******/
+  margin-top: 8.75rem;
+}
+
+/* line 195, ../../scss/app/_global_styles.scss */
+.app-fios, .app-fiosmobile, .app-hbo {
+  padding-left: 5.3125rem;
+  background: transparent url("../../../Images/fios-app.png") no-repeat scroll left top;
+  margin: 0.9375rem 1.5625rem 0.9375rem 0;
+  line-height: 1.1875rem;
+  min-height: 4.75rem;
+}
+
+/* line 203, ../../scss/app/_global_styles.scss */
+.app-fiosmobile {
+  background: transparent url("../../../Images/fiosmobile-app.png") no-repeat scroll left top;
+}
+
+/* line 207, ../../scss/app/_global_styles.scss */
+.app-hbo {
+  background: transparent url("../../../Images/hbo.png") no-repeat scroll left top;
+}
+
+/*.icon-apple {
+    background: transparent url("../../../Images/apple-app.png") no-repeat scroll left top;
+    cursor: pointer;
+    width: rem-calc(143);
+    height: rem-calc(76);
+    display: inline-block;
+}
+
+.icon-android {
+    background: transparent url("../../../Images/android-app.png") no-repeat scroll left top;
+    cursor: pointer;
+    width: rem-calc(137);
+    height: rem-calc(76);
+    display: inline-block;
+}*/
+/* line 227, ../../scss/app/_global_styles.scss */
+.hdr {
+  font-size: 1.5rem !important;
+  color: #FFF;
+}
+
+/* line 232, ../../scss/app/_global_styles.scss */
+.shdr {
+  font-size: 2.25rem !important;
+  text-transform: uppercase;
+  color: #FFF;
+  line-height: 2.25rem;
+}
+
+/* line 239, ../../scss/app/_global_styles.scss */
+.acc-hdr {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0.625rem 0 0.625rem 0;
+}
+
+/*.info-icon {
+    position: absolute;
+    top: 91px;
+    left: 131px;
+}*/
+/*.info-iconmob {
+    position: absolute;
+    top: 135px;
+    left: 131px;
+}*/
+/* line 258, ../../scss/app/_global_styles.scss */
+.no-transform {
+  /*Fix flickering issue for List Control*/
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -o-transform: none !important;
+  -ms-transform: none !important;
+  transform: none !important;
+}
+
+/* line 267, ../../scss/app/_global_styles.scss */
+.m_list-tos .m_accordion-summary {
+  padding: 0.625rem !important;
+}
+/* line 274, ../../scss/app/_global_styles.scss */
+.m_list-tos .m_accordion-details {
+  padding-left: 0.625rem !important;
+  padding-right: 0.625rem !important;
+  /*padding: rem-calc(0 10) !important;*/
+}
+/* line 281, ../../scss/app/_global_styles.scss */
+.m_list-tos .m_accordion-summary::before {
+  right: 0.625rem !important;
+  top: 40%;
+}
+
+/* line 287, ../../scss/app/_global_styles.scss */
+.security_image {
+  height: 10.375rem;
+}
+
+/* line 291, ../../scss/app/_global_styles.scss */
+.aol-mail {
+  margin-top: 20px;
+  border-top: 1px solid #B2B2B2;
+  padding-top: 0px;
+}
+
+/* line 297, ../../scss/app/_global_styles.scss */
+.sign-aol {
+  margin-top: 20px !important;
+}
+
+/* line 301, ../../scss/app/_global_styles.scss */
+.app-aol-mail {
+  padding-left: 85px;
+  background: transparent url("../../../Images/aolMail.png") no-repeat scroll left top;
+  margin: 15px 0px 10px;
+  min-height: 76px;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+/* line 310, ../../scss/app/_global_styles.scss */
+.fiosApp {
+  font-size: 14px;
+  margin-top: 15px;
+  line-height: 19px;
+}
+
+/* line 316, ../../scss/app/_global_styles.scss */
+.fiosLink {
+  display: block;
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+}
+
+/*Global styles ends here*/
+/* line 328, ../../scss/app/_global_styles.scss */
+.welcome-basket-modal .app-aol-mail {
+  background-size: 56px;
+}
+
+/* line 334, ../../scss/app/_global_styles.scss */
+.icon-info.m_icon-info-account {
+  color: #e4e5e3;
+  float: left;
+  padding-left: 0.9375rem;
+  position: relative;
+  top: 0.375rem;
+}
+
+/****** Branding Updates******/
+/* line 344, ../../scss/app/_global_styles.scss */
+.main_title {
+  font-family: 'BrandFont';
+  font-weight: bold;
+  font-size: 1.3125rem;
+}
+
+/****** Branding Updates******/
+/* line 351, ../../scss/app/_global_styles.scss */
+.sub_title {
+  font-family: 'BrandFont';
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* line 357, ../../scss/app/_global_styles.scss */
+.select_image {
+  width: 100px;
+  height: 150px;
+  float: left;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin: 0 20px 0 0;
+}
+
+/* line 366, ../../scss/app/_global_styles.scss */
+.select_image_mobile {
+  width: 90px !important;
+  height: 135px !important;
+  float: left;
+  border: 2px solid #e2e3e4;
+  background-color: #f6f6f6;
+  cursor: pointer;
+  margin: 0 0 8px 8px;
+}
+
+/* line 376, ../../scss/app/_global_styles.scss */
+.select_image_desktop {
+  width: 100px !important;
+  height: 150px !important;
+  float: left;
+  border: 2px solid #e2e3e4;
+  background-color: #f6f6f6;
+  cursor: pointer;
+  margin: 0 9px 9px 0;
+}
+
+/* line 386, ../../scss/app/_global_styles.scss */
+.selected_image {
+  border: 4px solid #333333;
+}
+
+/* line 390, ../../scss/app/_global_styles.scss */
+.select_icon {
+  margin: 40px 0 0 30px;
+}
+
+/* line 394, ../../scss/app/_global_styles.scss */
+ul.uid-pwdrules li {
+  line-height: 1.5625rem !important;
+  /*font-size: rem-calc(14);*/
+}
+
+/* line 399, ../../scss/app/_global_styles.scss */
+.imageselector {
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  z-index: 1;
+}
+
+/* line 406, ../../scss/app/_global_styles.scss */
+.image_carousel {
+  width: 550px;
+  float: left;
+  height: auto;
+}
+
+/* line 412, ../../scss/app/_global_styles.scss */
+.w_carousel {
+  background: white;
+}
+
+/****** Branding Updates for Carousel******/
+/* line 417, ../../scss/app/_global_styles.scss */
+.m_carousel-prev {
+  position: absolute;
+  left: -4.0625rem;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  line-height: 2.8125rem;
+}
+/* line 424, ../../scss/app/_global_styles.scss */
+.m_carousel-prev:before {
+  font-size: 1.25rem;
+  line-height: 2.8125rem;
+}
+
+/* line 430, ../../scss/app/_global_styles.scss */
+.m_carousel-next {
+  position: absolute;
+  right: -3.125rem;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  line-height: 2.8125rem;
+}
+/* line 437, ../../scss/app/_global_styles.scss */
+.m_carousel-next:before {
+  font-size: 1.25rem;
+  line-height: 2.8125rem;
+}
+
+/* line 443, ../../scss/app/_global_styles.scss */
+.carousel_pager {
+  position: absolute;
+  top: 45%;
+  margin: 0 0;
+}
+
+/****** Branding Updates for Carousel******/
+/* line 449, ../../scss/app/_global_styles.scss */
+.carousel_pager-item {
+  display: none;
+}
+
+/* line 453, ../../scss/app/_global_styles.scss */
+.nocursor {
+  cursor: default !important;
+  opacity: 0 !important;
+}
+
+/*.vzicon{
+    display:inline-block !important;
+}*/
+/* line 462, ../../scss/app/_global_styles.scss */
+.minht_350 {
+  min-height: 21.875rem !important;
+}
+
+/* line 466, ../../scss/app/_global_styles.scss */
+#print_container {
+  position: absolute;
+  top: -1000000px;
+}
+
+/* line 472, ../../scss/app/_global_styles.scss */
+input, textarea {
+  background-image: none;
+}
+
+/****** Newly Added For Branding Updates******/
+@media only screen and (max-width: 47.9375rem) {
+  /* line 478, ../../scss/app/_global_styles.scss */
+  .main {
+    padding-top: 3.75rem;
+  }
+}
+/* line 483, ../../scss/app/_global_styles.scss */
+div.text-brand-3 {
+  color: #0066cc !important;
+}
+
+/* line 487, ../../scss/app/_global_styles.scss */
+p a {
+  text-decoration: none;
+}
+
+/* line 491, ../../scss/app/_global_styles.scss */
+.font-normal {
+  font-weight: normal;
+}
+
+/* line 496, ../../scss/app/_global_styles.scss */
+.w_tooltip p {
+  margin-bottom: 0.625rem;
+}
+
+/* line 501, ../../scss/app/_global_styles.scss */
+.margin-top-larger {
+  margin-top: 2.625rem;
+}
+
+/* line 506, ../../scss/app/_global_styles.scss */
+.modal_footer button, .modal_footer .button {
+  float: left;
+  margin-bottom: 2.625rem;
+}
+
+/* line 512, ../../scss/app/_global_styles.scss */
+.w_tooltip {
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+/* line 516, ../../scss/app/_global_styles.scss */
+.w_tooltip p, .w_tooltip div, .w_tooltip ul li, .w_tooltip a {
+  font-weight: bold;
+  font-size: 0.875rem !important;
+}
+/* line 521, ../../scss/app/_global_styles.scss */
+.w_tooltip ul li {
+  padding-top: 0.3125rem;
+}
+/* line 525, ../../scss/app/_global_styles.scss */
+.w_tooltip ul.yes-no-list {
+  /*.yes, .no{
+      padding-left: 0;
+  }*/
+}
+/* line 529, ../../scss/app/_global_styles.scss */
+.w_tooltip ul.yes-no-list .yes:before, .w_tooltip ul.yes-no-list .no:before {
+  content: '';
+}
+
+/* line 534, ../../scss/app/_global_styles.scss */
+.w_modal {
+ /*p, div, ul li, a {
+    font-weight: bold;
+    font-size: rem-calc(14) !important;
+}*/
+}
+/* line 540, ../../scss/app/_global_styles.scss */
+.w_modal ul.yes-no-list .yes:before, .w_modal ul.yes-no-list .no:before {
+  content: '';
+}
+
+/* line 545, ../../scss/app/_global_styles.scss */
+.input-label {
+  font-weight: bold;
+  color: #333333 !important;
+}
+
+/*Global Top VZ Logo for Desktop starts here*/
+/* line 2, ../../scss/app/_topnav.scss */
+.w_top-bar_desktop {
+  min-height: 90px;
+  height: auto;
+  border-bottom: 1px solid #BBB;
+}
+/* line 7, ../../scss/app/_topnav.scss */
+.w_top-bar_desktop .w_top-bar_desktop_inner {
+  display: block;
+  background-color: #FFF;
+  max-width: 61.5625rem;
+  margin: 0 auto;
+  min-height: 5.625rem;
+  height: auto;
+}
+/* line 16, ../../scss/app/_topnav.scss */
+.w_top-bar_desktop a.espanol:link {
+  float: right;
+  font-size: 0.875rem;
+  color: #4B4B4B;
+  font-weight: bold;
+}
+/* line 22, ../../scss/app/_topnav.scss */
+.w_top-bar_desktop a.espanol:hover {
+  color: #cd040b;
+}
+
+/* line 27, ../../scss/app/_topnav.scss */
+a.top-bar_charm {
+  background-color: transparent !important;
+}
+
+/* line 31, ../../scss/app/_topnav.scss */
+.menu-indicator {
+  height: 6px;
+  width: 6px;
+  display: block;
+  background: #676767;
+  border-radius: 6px;
+  position: absolute;
+  position: relative;
+  margin-top: 20px;
+}
+/* line 41, ../../scss/app/_topnav.scss */
+.menu-indicator:after {
+  content: '';
+  height: 6px;
+  width: 6px;
+  display: block;
+  background: #676767;
+  border-radius: 6px;
+  position: absolute;
+  position: absolute;
+  bottom: -10px;
+}
+/* line 53, ../../scss/app/_topnav.scss */
+.menu-indicator:before {
+  content: '';
+  height: 6px;
+  width: 6px;
+  display: block;
+  background: #676767;
+  border-radius: 6px;
+  position: absolute;
+  top: -10px;
+}
+
+/* line 66, ../../scss/app/_topnav.scss */
+.top-bar_charms [class*="icon-"]::before {
+  color: #ED1C24 !important;
+}
+/* line 70, ../../scss/app/_topnav.scss */
+.top-bar_charms .icon-chat {
+  background: url(../Images/chat-icon.png) no-repeat right center;
+  margin-top: 10px;
+  height: 32px;
+  width: 40px;
+  padding: 0 !important;
+}
+/* line 77, ../../scss/app/_topnav.scss */
+.top-bar_charms .icon-chat :before {
+  display: none;
+}
+/* line 82, ../../scss/app/_topnav.scss */
+.top-bar_charms .drop-list_text {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-left: 1px solid #ccc !important;
+  border-right: 1px solid #ccc !important;
+  border-bottom: 1px solid #ccc !important;
+}
+/* line 89, ../../scss/app/_topnav.scss */
+.top-bar_charms .drop-list_text:first-child {
+  border-top: 1px solid #ccc !important;
+}
+
+/* line 96, ../../scss/app/_topnav.scss */
+[data-back-nav-desktop], [data-back-nav] {
+  display: none !important;
+}
+
+/*Global Top VZ Logo for Desktop ends here*/
+/*Global Step navigation starts here*/
+/****** Branding Updates******/
+/* line 3, ../../scss/app/_stepnav.scss */
+.w_stepnav {
+  width: 100%;
+  height: auto;
+  float: left;
+  background: #f6f6f6 none repeat scroll 0% 0%;
+  margin: 3.8125rem 0 0 0;
+}
+/* line 10, ../../scss/app/_stepnav.scss */
+.w_stepnav:after {
+  content: '';
+  border-bottom: 0.15625rem solid #cccccc;
+  display: block;
+  position: relative;
+  top: -0.09375rem;
+}
+/* line 18, ../../scss/app/_stepnav.scss */
+.w_stepnav .steps_step:not(.active) {
+  border-bottom: 0 !important;
+}
+/* line 21, ../../scss/app/_stepnav.scss */
+.w_stepnav .steps_step.active {
+  position: relative;
+  z-index: 50;
+}
+/* line 25, ../../scss/app/_stepnav.scss */
+.w_stepnav .steps_step.active:after {
+  bottom: -0.1875rem;
+}
+/* line 29, ../../scss/app/_stepnav.scss */
+.w_stepnav .steps_step .steps_name {
+  cursor: pointer;
+}
+
+/*Global Step navigation ends here*/
+/* line 3, ../../scss/app/_listcontrol.scss */
+.m_list-control > li {
+  padding-left: 0;
+  padding-right: 0;
+  color: #959595;
+  font-weight: normal;
+}
+/* line 10, ../../scss/app/_listcontrol.scss */
+.m_list-control > li.m_single {
+  line-height: 1.1875rem;
+}
+@media only screen and (min-width: 390px) and (max-width: 767px) {
+  /* line 10, ../../scss/app/_listcontrol.scss */
+  .m_list-control > li.m_single {
+    line-height: 2.375rem;
+  }
+}
+@media only screen and (min-width: 48rem) {
+  /* line 10, ../../scss/app/_listcontrol.scss */
+  .m_list-control > li.m_single {
+    line-height: 0.75rem;
+  }
+}
+/* line 22, ../../scss/app/_listcontrol.scss */
+.m_list-control .m_accordion-details {
+  padding: 0 0.625rem;
+}
+/* line 26, ../../scss/app/_listcontrol.scss */
+.m_list-control .m_accordion-summary {
+  padding-left: 0.625rem;
+}
+@media only screen and (max-width: 47.9375rem) {
+  /* line 26, ../../scss/app/_listcontrol.scss */
+  .m_list-control .m_accordion-summary {
+    padding-top: 0.625rem;
+  }
+}
+/* line 31, ../../scss/app/_listcontrol.scss */
+.m_list-control .m_accordion-summary:before {
+  content: "\e79d";
+  font-size: 0.875rem !important;
+  line-height: 1.5;
+  top: 35%;
+}
+@media only screen and (max-width: 47.9375rem) {
+  /* line 31, ../../scss/app/_listcontrol.scss */
+  .m_list-control .m_accordion-summary:before {
+    top: 35%;
+  }
+}
+/* line 41, ../../scss/app/_listcontrol.scss */
+.m_list-control .m_accordion-summary.open {
+  color: #cd040b;
+}
+/* line 45, ../../scss/app/_listcontrol.scss */
+.m_list-control .m_accordion-summary.open:before {
+  content: '\e79b';
+  color: #cd040b;
+}
+
+/* line 54, ../../scss/app/_listcontrol.scss */
+.m_new-listcontrol > li {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 59, ../../scss/app/_listcontrol.scss */
+.m_new-listcontrol .m_accordion-summary {
+  padding-left: 0.9375rem;
+}
+/* line 62, ../../scss/app/_listcontrol.scss */
+.m_new-listcontrol .m_accordion-summary:before {
+  content: "\e79d";
+  font-size: 0.875rem !important;
+  right: 0.625rem;
+  line-height: 1.5;
+}
+/* line 69, ../../scss/app/_listcontrol.scss */
+.m_new-listcontrol .m_accordion-summary.open {
+  color: #cd040b;
+}
+/* line 73, ../../scss/app/_listcontrol.scss */
+.m_new-listcontrol .m_accordion-summary.open:before {
+  content: '\e79b';
+  color: #cd040b;
+}
+
+/* line 81, ../../scss/app/_listcontrol.scss */
+.m_accordion-summary.open + .m_accordion-details {
+  overflow: visible;
+}
+
+/*Global footer navigation starts here*/
+/* line 2, ../../scss/app/_footer_styles.scss */
+.w_footer {
+  width: 100%;
+  margin: auto;
+  height: auto;
+  /*position: relative;*/
+  background-color: #f0f0f0;
+  text-align: center;
+  border-top: 1px solid #BBB;
+}
+/* line 10, ../../scss/app/_footer_styles.scss */
+.w_footer .footer_desktop {
+  text-align: center;
+}
+
+/*Global footer navigation ends here*/
+/* line 1, ../../scss/app/_app-input.scss */
+input, textarea, select {
+  border-radius: 0 !important;
+  font-size: 1rem;
+}
+
+/* line 5, ../../scss/app/_app-input.scss */
+input.error {
+  background: url(../../../images/alert_input.png) right no-repeat;
+  background-position: 95% 15px !important;
+  border-color: #CD040B !important;
+}
+/* line 9, ../../scss/app/_app-input.scss */
+input.error:focus {
+  border-width: 1px;
+}
+
+/*input[type="radio"] + label:not(.island), input[type="radio"]:checked + label:not(.island) {
+    background: url(../../../images/radio.png) 0 rem-calc(-25) no-repeat !important;
+    height: rem-calc(25);
+    padding-top: rem-calc(0) !important;
+}
+
+input[type="radio"] + label:not(.island), input[type="radio"] + label:not(.island) {
+    background: url(../../../images/radio.png) 0 0 no-repeat !important;
+    height: rem-calc(25);
+    padding-top: rem-calc(0) !important;
+}
+
+input[type="radio"]:checked + label::before, input[type="radio"] + label::before {
+    content: '';
+    background: none !important;
+}*/
+/*input[type="checkbox"] + label::before, input[type="radio"] + label::before {
+	background-image: url(../../../images/index.png) !important;
+}
+input[type="checkbox"]:focus + label:before, input[type="checkbox"] + label:hover::before {
+	background-position: -0.0625rem 57.75%;
+}
+input[type="checkbox"]:checked:focus + label:before, input[type="checkbox"]:checked + label:hover::before {
+	background-position: -0.0625rem 86%;
+	top: 0.5rem;
+}
+input[type="radio"]:focus + label:before, input[type="radio"] + label:hover::before {
+	background-position: -0.0625rem 0.5%;
+}
+input[type="radio"]:checked:focus + label:before, input[type="radio"]:checked + label:hover::before {
+	background-position: -0.0625rem 29%;
+}*/
+/* line 46, ../../scss/app/_app-input.scss */
+input.value {
+  font-size: 1rem;
+  color: #333333 !important;
+}
+
+/* line 50, ../../scss/app/_app-input.scss */
+input:focus:not([readonly]), input.value:focus:not([readonly]), select {
+  border-color: #9B9B9B;
+}
+
+/* line 53, ../../scss/app/_app-input.scss */
+select, input.faux-select, textarea.faux-select, select.faux-select {
+  background: url(/sso/resources/images/mforgotflow/dropdown.png) 95% center no-repeat !important;
+  border-color: #9B9B9B !important;
+  font-size: 1rem;
+}
+
+/* line 2, ../../scss/app/_app-modal.scss */
+.w_modal.m_modal-width {
+  margin-left: 0 !important;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+@media only screen and (min-width: 48rem) {
+  /* line 2, ../../scss/app/_app-modal.scss */
+  .w_modal.m_modal-width {
+    width: 38.75rem;
+    height: auto !important;
+    overflow: hidden !important;
+  }
+}
+@media only screen and (min-width: 48rem) {
+  /* line 17, ../../scss/app/_app-modal.scss */
+  .w_modal.m_modal-width .modal_content {
+    height: auto !important;
+    overflow: hidden !important;
+  }
+}
+/* line 23, ../../scss/app/_app-modal.scss */
+.w_modal .modal_header h4 {
+  color: #cd040b;
+}
+
+/* line 28, ../../scss/app/_app-modal.scss */
+.m_icon-clear {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+}
+
+/* line 1, ../../scss/app/_app-buttons.scss */
+.button, a.button {
+  margin-top: 2.625rem;
+  margin-bottom: 2.625rem;
+  text-align: center;
+}
+@media only screen and (min-width: 48rem) {
+  /* line 1, ../../scss/app/_app-buttons.scss */
+  .button, a.button {
+    width: auto !important;
+  }
+}
+/* line 10, ../../scss/app/_app-buttons.scss */
+.button.m_button, a.button.m_button {
+  border-radius: 0;
+  font-family: 'BrandFont';
+  font-weight: bold;
+  /*text-align: left;*/
+  padding-left: 1.875rem;
+  padding-right: 1.5625rem;
+  font-size: 1.125rem;
+  margin-top: 2.625rem;
+  margin-bottom: 2.625rem;
+}
+/* line 21, ../../scss/app/_app-buttons.scss */
+.button.m_button:before, a.button.m_button:before {
+  font-family: "VZIcons";
+  content: '\e631';
+  float: right;
+}
+/* line 27, ../../scss/app/_app-buttons.scss */
+.button.m_button.marketing, a.button.m_button.marketing {
+  background: #CD040B;
+}
+/* line 31, ../../scss/app/_app-buttons.scss */
+.button.m_button:focus, a.button.m_button:focus {
+  box-shadow: none;
+}
+/* line 36, ../../scss/app/_app-buttons.scss */
+.button.m_button-app, a.button.m_button-app {
+  margin-top: 0.1875rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* line 42, ../../scss/app/_app-buttons.scss */
+  .button {
+    margin-top: 1.3125rem;
+    margin-bottom: 1.3125rem;
+  }
+  /* line 46, ../../scss/app/_app-buttons.scss */
+  .button.m_button {
+    height: 3.75rem;
+    line-height: 2.3125rem;
+  }
+}
+@media (min-width: 768px) {
+  /* line 55, ../../scss/app/_app-buttons.scss */
+  .button.m_button {
+    height: 3.75rem;
+    line-height: 2.5rem;
+  }
+}
+/****** Branding Updates******/
+/*@media only screen and (max-width: 47.9375rem) {
+    .button, button {
+        margin: rem-calc(21) 0;
+    }
+}*/
+/* line 68, ../../scss/app/_app-buttons.scss */
+button:not(.left) + button:not(.left), .button:not(.left) + .button:not(.left) {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 47.9375rem) {
+  /* line 73, ../../scss/app/_app-buttons.scss */
+  button + button, .button + .button, button:not(.left) + button:not(.left), button + button:not(.left) {
+    margin-top: 0;
+  }
+
+  /* line 77, ../../scss/app/_app-buttons.scss */
+  button.hide + button, #no-telephone, button + button.margin-top-larger {
+    margin-top: 1.3125rem !important;
+  }
+}
+/* line 82, ../../scss/app/_app-buttons.scss */
+.button-horiz-spacer {
+  margin-top: 2.625rem !important;
+  margin-bottom: 2.625rem !important;
+}
+
+/* line 87, ../../scss/app/_app-buttons.scss */
+[data-vztel-no] {
+  margin-top: 2.625rem !important;
+}
+
+@media only screen and (max-width: 47.9375rem) {
+  /* line 3, ../../scss/app/_visibility.scss */
+  .hide-for-small-down {
+    display: none;
+  }
+}
+/* line 7, ../../scss/app/_visibility.scss */
+.show-for-tiny {
+  display: none;
+}
+@media only screen and (max-width: 47.9375rem) {
+  /* line 7, ../../scss/app/_visibility.scss */
+  .show-for-tiny {
+    display: block;
+  }
+}
+
+/* line 1, ../../scss/app/_type-headers.scss */
+h2 {
+  font-size: 2.25rem;
+  line-height: 2.375rem;
+}
+
+/* line 3, ../../scss/app/_app-panels.scss */
+.panel.m_panel-device-state {
+  background: #959595;
+  height: 2.625rem;
+  font-family: ApexBold;
+  color: #F9F9F9;
+  padding: 0 0 0 3.125rem;
+  line-height: 2.5rem;
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  /* line 3, ../../scss/app/_app-panels.scss */
+  .panel.m_panel-device-state {
+    padding-left: 1.25rem;
+  }
+}
+/* line 17, ../../scss/app/_app-panels.scss */
+.panel.m_panel-title {
+  font-size: 1.125rem;
+  font-family: ApexMedium;
+  color: #4b4b4b;
+  margin-bottom: 0 !important;
+}
+@media (max-width: 984px) {
+  /* line 17, ../../scss/app/_app-panels.scss */
+  .panel.m_panel-title {
+    font-size: 1rem;
+  }
+}
+/* line 28, ../../scss/app/_app-panels.scss */
+.panel.m_panel-overview {
+  width: 72%;
+  background: white;
+  float: right;
+  opacity: 0.9;
+  margin: 2.5rem 2.1875rem 0 0;
+}
+/* line 34, ../../scss/app/_app-panels.scss */
+.panel.m_panel-overview h3 {
+  margin-bottom: 0.3125rem;
+}
+/* line 38, ../../scss/app/_app-panels.scss */
+.panel.m_panel-overview p {
+  line-height: 1.4375rem;
+}
+/* line 42, ../../scss/app/_app-panels.scss */
+.panel.m_panel-guest-network {
+  font-family: ApexBook;
+  padding-left: 3.125rem;
+  font-size: 1.25rem;
+  color: #4b4b4b;
+}
+/* line 48, ../../scss/app/_app-panels.scss */
+.panel.m_panel-features {
+  height: auto;
+  overflow: hidden;
+  border: 0.125rem solid #efefef;
+  background: #f7f7f7;
+  padding-right: 1.25rem 1.25rem 0.9375rem 1.875rem !important;
+  font-size: 0.75rem;
+  color: #4b4b4b;
+}
+/* line 57, ../../scss/app/_app-panels.scss */
+.panel.m_panel-notification {
+  background: #ffcfd0;
+  border-radius: 0.1875rem;
+  /*margin:0 0 rem-calc(10) rem-calc(15);*/
+  color: #a2a2a2;
+  padding: 0.9375rem 0.9375rem;
+  height: auto;
+  overflow: hidden;
+}
+
+/* line 67, ../../scss/app/_app-panels.scss */
+.panel-features_apps {
+  color: #333333;
+  font-size: 1.125rem;
+  padding-left: 2.5rem;
+  font-family: ApexMediumItalic;
+}
+
+/* line 73, ../../scss/app/_app-panels.scss */
+.list-control-device_alert-text {
+  color: #000;
+  padding-left: 0.625rem;
+  font-size: 0.875rem;
+  padding-top: 0.4375rem;
+  font-family: "BrandFont";
+  float: left;
+}
+
+/* line 81, ../../scss/app/_app-panels.scss */
+.panel-features_disabled {
+  font-size: 1rem;
+  color: #a2a2a2;
+  padding-top: 0.9375rem;
+  font-weight: bold;
+}
+
+/* line 87, ../../scss/app/_app-panels.scss */
+.m_error {
+  border: 1px solid #A80309 !important;
+  background: #ffcfd0 !important;
+}

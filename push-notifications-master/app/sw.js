@@ -34,5 +34,13 @@ self.addEventListener('activate', function(event) {
 
 self.addEventListener('push', function(event) {
   console.log('Push message received', event);
+  var title = 'You got an offer!!';
+  event.waitUntil(
+    self.registration.showNotification(title, {
+      body: 'Apple Iphone 6 now for $0.00. Grab now.',
+      icon: 'images/icon.png',
+      tag: 'my-tag'
+    }));
   // TODO
+  
 });

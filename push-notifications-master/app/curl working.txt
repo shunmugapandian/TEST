@@ -1,0 +1,6 @@
+push demo site - working
+curl -k --header "Authorization: key=AIzaSyBBh4ddPa96rQQNxqiq_qQj7sq1JdsNQUQ" --header Content-Type:"application/json" https://android.googleapis.com/gcm/send -d "{\"registration_ids\":[\"cYwD3G5UeI8:APA91bESyenHaPceJYjMJj4BWPEbITrDgOSUt-VnMZK6ii2poXsWYlXUwe9KOoa5TZ9mO05trUREE4b3P-otYNV0zXYHEIX_TO1uFuX6R7cfnk_2U2fQ4unn_Lugy_PFmVhafmUoizFC\"]}"
+
+local - working
+curl -k --header "Authorization: key=AIzaSyDcjptRCuqZ4LdIrWsFn2FCr6AAYRblkKc" --header Content-Type:"application/json" https://android.googleapis.com/gcm/send -d "{\"registration_ids\":[\"eEP8ZyPpLeQ:APA91bFvU_4EU9rn0lJ7_fRiUqBsiDEVqkraVtMCsdNRQ4WgxxfhWcR4zJ4OscUfcj6AJzh8soWmvjTjb0sUp6mU9PJ6EKJOUzDsAoHzC5nwLu68PYWcAMUPH_EuxvD4Tk2WMnWAtKRd\"]}"
+
