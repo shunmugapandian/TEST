@@ -23,14 +23,15 @@ if ('serviceWorker' in navigator) {
     console.log('Service Worker is supported');
     navigator.serviceWorker.register('sw.js').then(function(reg) {
         console.log(':^)', reg);
-        reg.pushManager.subscribe({
+        /*reg.pushManager.subscribe({
             userVisibleOnly: true
         }).then(function(sub) {
             console.log('endpoint:', sub.endpoint);
 			var endPoints = sub.endpoint.split('/');
 			var regID = endPoints[endPoints.length - 1];
 			document.getElementById("regid").innerText = regID;
-        });
+        });*/
+		document.getElementById("regid").innerText = 'Subscription supported';
     }).catch(function(error) {
         console.log(':^(', error);
     });
@@ -48,6 +49,9 @@ if ('serviceWorker' in navigator) {
     reg = serviceWorkerRegistration;
     subscribeButton.disabled = false;
     console.log('Service Worker is ready :^)', reg);
+	//var endPoints = reg;//.split('/');
+	//var regID = endPoints[endPoints.length - 1];
+	//document.getElementById("regid").innerText = endPoints;
   }).catch(function(error) {
     console.log('Service Worker Error :^(', error);
   });
